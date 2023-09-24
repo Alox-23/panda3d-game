@@ -14,6 +14,6 @@ class MapManager():
             self.maps[new_key].node.reparentTo(render)
             self.current = new_key
         else:
-            self.maps[self.current].node.removeNode()
+            self.maps[self.current].node.detachNode()
             self.maps[new_key].node.reparentTo(render)
             self.current = new_key

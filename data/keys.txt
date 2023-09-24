@@ -1,0 +1,4 @@
+magma:1;
+stone:2;
+air: ;
+new_y_level:/;
