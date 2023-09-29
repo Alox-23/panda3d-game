@@ -17,3 +17,6 @@ class MapManager():
             self.maps[self.current].node.detachNode()
             self.maps[new_key].node.reparentTo(render)
             self.current = new_key
+
+    def get_current_node(self):
+        return self.maps[self.current].get_node()

@@ -51,7 +51,6 @@ class Map():
                     pass
 
 map = Map("scene2")
-print(map.map_keys)
 for y in map.map_data:
     for z in y:
         for x in z:
